@@ -1,0 +1,158 @@
+.h-screen-center{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-from{
+  width: 100%;
+  max-width: 350px;
+  background-color: white;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+.lock-icons{
+  width: 40px;
+  height: 40px;
+  color:rgb(57, 57, 141);
+  padding: 20px;
+  border-radius: 50px;
+  border : 2px solid rgb(57, 57, 141);
+  margin: 0 auto;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.form{
+  display: grid;
+  gap: 10px;
+}
+.form-element{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.form-element input {
+  width: 100%;
+  outline: none;
+  border:none;
+}
+
+.form-element .input-container{
+  border : 1px solid black;
+  padding: 5px;
+  border-radius: 3px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.icons-password{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.form button{
+  padding: 9px 20px;
+  width: fit-content;
+  border-radius: 5px;
+  border:none;
+  background-color: rgb(57, 57, 141);
+  color : white; 
+  letter-spacing: 1px;
+  margin : 7px auto;
+  cursor: pointer;
+  transition: 0.1s;
+}
+.form button:hover{
+  background-color: rgb(49, 49, 122);
+  transform: scale(1.1);
+}
+.link{
+  text-decoration: none;
+}
+.link:hover{
+  text-decoration: underline;
+}
+.profile-pic{
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  overflow: hidden;
+  box-shadow: 2px 2px 7px rgba(0,0,0,0.05);
+  background-color: rgb(238, 230, 230);
+  margin:0 auto;
+  display: block;
+  position: relative;
+}
+.upload-pic-text{
+  position: absolute;
+  font-size: 12px;
+  height: 30px;
+  z-index: 10;
+  background-color: rgba(0,0,0,0.5);
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color:white;
+  cursor: pointer;
+}
+.sign-form-lock-container{
+  width: 83px;
+  height: 83px;
+  overflow: hidden;
+  margin: 0 auto;
+  border-radius: 100px;
+  position: relative;
+}
+#upload-pic-input{
+  display: none;
+}
+
+
+/***user-profile****/
+.user-profile{
+  width: 100%;
+  max-width: 350px;
+  background-color: white;
+  margin: auto;
+  text-align: center;
+  padding: 0px 0px 20px 10px;
+}
+.user-profile-icons{
+  width: 50px;
+  height: 50px;
+  padding:20px;
+  border : 2px solid rgb(49, 49, 122);
+  border-radius: 50px;
+  margin: auto;
+}
+.user-name{
+  text-transform: capitalize;
+  margin: 0;
+}
+.user-profile-pic{
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+.user-email{
+  margin: 0;
+}
+
+.logout-btn{
+  border:2px solid transparent;
+  background-color: red;
+  color : white;
+  font-weight: 600;
+  padding: 3px 12px;
+  letter-spacing: 0.5px;
+  width: fit-content;
+  margin-left: auto;
+  display: block;
+  cursor: pointer;
+}
